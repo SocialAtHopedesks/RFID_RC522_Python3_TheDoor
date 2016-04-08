@@ -9,8 +9,7 @@ wget http://www.plenkyman.com/thedoor.tar.gz
 tar -zxvf thedoor.tar.gz
 sleep 4
 rm thedoor.tar.gz
-sudo apt-get update
-sudo apt-get upgrade
+sudo apt-get update && sudo apt-get -y upgrade
 sudo apt-get install mysql-server pypy --fix-missing
 sudo pip3 install pymysql
 wget http://www.airspayce.com/mikem/bcm2835/bcm2835-1.50.tar.gz
